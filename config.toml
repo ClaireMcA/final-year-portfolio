@@ -1,0 +1,17 @@
+baseurl = "https://example.com"
+title = "Hugo Themes - aether"
+author = "Joe Hutchinson"
+canonifyurls = true
+paginate = 3
+theme = "aether"
+themesDir = "themes/" 
+
+[params]
+    brand = "Claire Louise Butler"
+    description = "I am in interaction Designer in my final year of university."
+    headshotimg = "img/faceshot.jpg"
+    headshotalt = "Generic grey headshot picture"
+
+[markup]
+  [markup.highlight]
+    style = "igor"
