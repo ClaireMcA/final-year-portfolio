@@ -1,8 +1,8 @@
-baseurl = "https://example.com"
+baseurl = "https://clairelouisebutler.com"
 title = "Hugo Themes - aether"
 author = "Joe Hutchinson"
 canonifyurls = true
-paginate = 3
+paginate = 6
 theme = "aether"
 themesDir = "themes/" 
 
@@ -11,6 +11,10 @@ themesDir = "themes/"
     description = "I am in interaction Designer in my final year of university."
     headshotimg = "img/faceshot.jpg"
     headshotalt = "Generic grey headshot picture"
+    linkedin = "https://www.linkedin.com/in/claire-louise-butler/"
+    instagram = "URL to your Instagram account, icon link will be included in the footer - optional"
+
+
 
 [markup]
   [markup.highlight]
