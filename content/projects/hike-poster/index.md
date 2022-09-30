@@ -12,4 +12,11 @@ resources:
   src: "Hike-Mockup.png"
   params:
     description: "A Mockup of the Hiking Poster"
+- name: featuredImageTall
+  src: "Hike-Mockup-tall.png"
+  params:
+    description: "A Mockup of the Hiking Poster"
 ---
+
+
+## The 
