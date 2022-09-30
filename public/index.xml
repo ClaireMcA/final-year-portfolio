@@ -1,0 +1,20 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>aether - Hugo Themes - aether</title>
+    <link>https://clairelouisebutler.com/</link>
+    <description>Recent content in aether on Hugo Themes - aether</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 27 Apr 2018 09:46:15 -0400</lastBuildDate>
+    
+        <atom:link href="https://clairelouisebutler.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Projects</title>
+      <link>https://clairelouisebutler.com/projects/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://clairelouisebutler.com/projects/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

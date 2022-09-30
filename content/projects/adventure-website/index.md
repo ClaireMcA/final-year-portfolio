@@ -1,7 +1,8 @@
 ---
 title: "Choose Your Own Adventure"
 description: "A Choose your own Adventure Website that was created using a static site generator"
-categories: ["Features"]
+categories: 
+date: 2018-04-20
 dropCap: false
 displayInMenu: false
 displayInList: true

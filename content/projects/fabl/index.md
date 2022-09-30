@@ -1,9 +1,10 @@
 ---
 title: "The FABL"
 description: "A Fingerprint Activated Bike lock prototype."
-categories: ["Features"]
+categories: 
 dropCap: false
 displayInMenu: false
+date: 2018-04-19
 displayInList: true
 draft: false
 resources:

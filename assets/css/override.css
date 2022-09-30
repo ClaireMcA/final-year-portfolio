@@ -6,8 +6,8 @@
   }
 
 .logo {
-    height: 3em;
-    width: 15em;
+    height: 3rem;
+    width: 17rem;
 }
 body {
     font-family: Source Sans, HelveticaNeue-Light, "Helvetica Neue Light",
@@ -21,6 +21,10 @@ body {
     align-items: center;
     width: 100%;
     box-sizing: border-box;
+}
+.single-body {
+    background-color: #7FA7A580;
+    
 }
 p {
     margin: 1.5em 0;
@@ -63,6 +67,9 @@ p {
 .home-blob-text{
     margin: 0.5em 0 0 0;
     font-size: 1.1em;
+}
+.menu {
+    display: none;
 }
 .nav-bar {
     max-width: 60rem;
@@ -165,6 +172,7 @@ p {
 .hamburger-menu-overlay-link:hover {
     text-decoration: underline;
 }
+
 .post {
     margin: 0 0 1em 0;
     line-height: 1.9;
@@ -200,7 +208,7 @@ p {
     /* initial-letter: 2; Maybe someday*/
 }
 .content {
-    background-color: var(--neutral);
+    background-color: white);
     padding: 2em 0;
     margin-bottom: 3rem;
     width: 100%;
@@ -368,6 +376,7 @@ p {
     padding-right: 1.2rem !important;
     box-sizing: border-box !important;
     color: var(--darkblue);
+    padding-bottom: 2rem;
 }
 .side-text-padding {
     padding-left: 1.2rem !important;
@@ -497,9 +506,6 @@ footer {
     margin: 0;
 
 }
-.footer-icon svg {
-    color: var(--neutral);
-}
 @media screen and (pointer: coarse) {
     .card-hover {
         transform: scale(0.95);
@@ -517,8 +523,27 @@ footer {
 }
 /* Medium devices (tablets, ~641px and up) */
 @media only screen and (min-width: 40.063em) {
+    .hamburger-menu {
+        display: none;
+    }
     body {
         font-size: 1.15rem;
+    }
+    .menu {
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu h2 {
+        margin: 0;
+        margin-left: 3rem;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .menu h2 a {
+        color: var(--darkblue);
+    }
+    .menu h2 a:hover {
+        text-decoration: underline;
+
     }
     .home-header {
         flex-direction: row;
@@ -555,14 +580,14 @@ footer {
         margin: 1.3em 1.7em;
     }
     .card-title {
-        font-size: 1.3em;
+        font-size: 1.5em;
     }
     .card-text {
         font-size: 0.9em;
         margin: 0.8em 0 1.2em 0;
     }
     .card-subtext {
-        font-size: 0.7em;
+        font-size: 1em;
         margin-bottom: 0.7em;
     }
     .content {

@@ -1,8 +1,9 @@
 ---
 title: "Remind Me"
 description: "A Tablet container that is design to improve compliance among the aging population"
-categories: ["Features"]
-dropCap: true
+categories: 
+dropCap: false
+date: 2018-04-26
 displayInMenu: false
 displayInList: true
 draft: false

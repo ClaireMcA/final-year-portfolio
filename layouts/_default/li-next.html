@@ -2,7 +2,7 @@
   href="{{ .Permalink }}" class="card blog-card bc-next" rel="bookmark" >
   {{ with .Resources.GetMatch "featuredImage" }}
   <div class="card-img-container">
-    <p class="card-img-overlay">Next Article</p>
+    <p class="card-img-overlay">Next Project</p>
     <picture>
       {{ $thumbnail := .Resize "400x Lanczos" }}
       {{ $thumbnail_2 := .Resize "800x Lanczos" }}
@@ -16,7 +16,7 @@
     <h2 class="card-title">{{ .Title | markdownify }}</h2>
     <p class="card-text">{{ if (isset .Params "description") }}{{ index .Params "description" | htmlUnescape }}{{ else }}{{ .Summary | plainify | htmlUnescape }}{{ end }}</p>
     <div class="card-subtext muted-text">
-      <p>Next Project</p>
+      <p>Read More</p>
 
     </div>
   </article>

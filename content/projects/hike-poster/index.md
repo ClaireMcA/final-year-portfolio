@@ -1,8 +1,9 @@
 ---
-title: "Planning Your Hike"
+title: "How to Pack for a Hike"
 description: "A poster with custom icons that explains how to pack a hiking pack"
-categories: ["Features"]
+categories:
 dropCap: false
+date: 2018-04-21
 displayInMenu: false
 displayInList: true
 draft: false

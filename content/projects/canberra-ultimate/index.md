@@ -1,8 +1,9 @@
 ---
 title: "Canberra Ultimate Frisbee"
 description: "A redesign of the Canberra Ultimate Frisbee Website into a user friendly app catered to current players"
-categories: ["Features"]
+categories:
 dropCap: false
+date: 2018-04-23
 displayInMenu: false
 displayInList: true
 draft: false

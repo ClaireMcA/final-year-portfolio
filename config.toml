@@ -1,8 +1,8 @@
 baseurl = "https://clairelouisebutler.com"
-title = "Hugo Themes - aether"
+title = "Claire Louise Butler"
 author = "Joe Hutchinson"
 canonifyurls = true
-paginate = 6
+paginate = 15
 theme = "aether"
 themesDir = "themes/" 
 
@@ -12,7 +12,8 @@ themesDir = "themes/"
     headshotimg = "img/faceshot.jpg"
     headshotalt = "Generic grey headshot picture"
     linkedin = "https://www.linkedin.com/in/claire-louise-butler/"
-    instagram = "URL to your Instagram account, icon link will be included in the footer - optional"
+    instagram = "https://www.instagram.com/clairelouise.butler/?hl=en"
+    spotify = "mailto:clairelouise.butler@outlook.com"
 
 
 

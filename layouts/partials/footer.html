@@ -1,9 +1,4 @@
 <footer class="side-padding">
-    <a href="{{ $.Site.BaseURL }}" class="footer-link">
-    {{ with resources.Get "icons/home.svg" }}
-        <img class="footer-icon" src="{{ .Permalink }}" alt="Home">
-    {{ end }}
-    </a>
     {{ if isset $.Site.Params "facebook"}}
     <a href="{{ $.Site.Params.facebook }}" class="footer-link" target="_blank" rel="noopener noreferrer">
     {{ with resources.Get "icons/facebook.svg" }}
