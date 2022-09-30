@@ -165,8 +165,8 @@
         </svg> -->
     </a></h1>
     <div class="menu">
-        <h2><a href="{{ .Site.BaseURL }}">Projects</a></h2>
-        <h2><a href="{{ .Site.BaseURL }}about">About</a></h2>
+        <h2><a  {{ if not (eq .Title "About") }}class="active"{{ end }}href="{{ .Site.BaseURL }}">Projects</a></h2>
+        <h2><a {{ if eq .Title "About" }}class="active"{{ end }}href="{{ .Site.BaseURL }}about">About</a></h2>
     </div>
     <div class="hamburger-menu">
       <input class="hamburger-menu-button" type="checkbox"

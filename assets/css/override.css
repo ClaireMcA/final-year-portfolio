@@ -191,6 +191,9 @@ p {
     font-family: Oswald;
     text-transform: uppercase;
 }
+.about-heading {
+    display:none;
+}
 .post-date {
     display: block;
     color: #7a7b7c;
@@ -317,6 +320,11 @@ p {
 .card-subtext p {
     font-family: 'Courier New', Courier, monospace;
     color: var(--yellow);
+}
+.card-subtext p:hover {
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--yellow);
+    text-decoration: underline;
 }
 .card-subtext {
     display: flex;
@@ -549,10 +557,13 @@ footer {
     }
     .menu h2 a {
         color: var(--darkblue);
+        text-decoration: none;
     }
     .menu h2 a:hover {
         text-decoration: underline;
-
+    }
+    .menu h2 .active {
+        text-decoration: underline;
     }
     .home-header {
         flex-direction: row;
