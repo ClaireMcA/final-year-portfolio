@@ -17,3 +17,6 @@ resources:
   params:
     description: "A Mockup of the Hiking Poster"
 ---
+
+## Design Brief
+I was asked to create a poster using illustrator, based on a topic of my choise. The poster I created uses all custom icons that I created.
