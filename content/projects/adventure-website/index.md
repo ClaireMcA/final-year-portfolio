@@ -12,126 +12,48 @@ resources:
   src: "Adventure-Mockup.png"
   params:
     description: "A screenshot of the Choose Your Own Adventure Website"
+- name: featuredImageTall
+  src: "Adventure-Mockup-tall.png"
+  params:
+    description: "A screenshot of the Choose Your Own Adventure Website"
+- name: hierarchy
+  src: "hierarchy.png"
+  params:
+    description: "A screenshot of the Choose Your Own Adventure Website"
 ---
 
-Hugo combined with the Aether theme turns easy to write markdown into powerful web pages.  KaTeX, Highlight.js, and Hugo provides the ability to create mathmatical symobols, equations, highlighted code, tables, lists, and much more.
+## Project Brief
 
-For each feature below, the first line is the markdown and the second line is the result after Hugo, KaTeX, and Highlight.js process the markdown.  You can find many more features in the Hugo documentation.
+I was given a lof of freedom for this project, the goal was to design and build a website that makes use of a static site generator. The idea I developed was to create something fun that made use of how easily SSG's allow you to create mutiple pages because of their template system. So I decided to create a Choose your own adventure site, as these are very simple pages but there are a LOT of them. I really enjoyed the process and the fun of building something a little bit different. 
 
-## LaTeX style math typsetting with KaTeX
+## Design
+I knew I would only need three templates/layouts for the site, a 'home' page, a 'choice' page and a 'end' page. I drew up a hierarchy chart to create a flow for the game, so I knew exactly how many pages to build and which other pages they would link to.
+The hierachry can be seen below:
 
-```md
-{{</* raw */>}}
-\[u(t) = K_p e(t) + K_i \int_{0}^{t} e(\tau) d\tau + K_d \frac{de(t)}{dt} \]
-{{</* /raw */>}}
+{{<smallimg src="hierarchy" alt="A diagram that shows all the possible choice in the website" width="1000px">}}
+
+## Creating the templates and pages
+I created all three templats with tester pages first and made sure that each template was responsive. Once the templates had been created it was only a matter of creating the hierachy using them. This was done with a whole bunch of markdown files. The links were added to the yaml of each markdown file 
+
+```yaml
+---
+# set the layout to use, in this case, a 'choice' page
+layout: layouts/choice
+
+# set the page title
+title: Choose Your Own Adventure
+
+
+# These are the links for choices
+choice:
+    link1: <a href='../left-1'>Left</a>
+    link2: <a href='../right-1'>Right</a>
+---
+
+# The text which asks the user to make a decision
+There is a fork in the cave. Do you go left or right?
 ```
 
-{{< raw >}}
-\[u(t) = K_p e(t) + K_i \int_{0}^{t} e(\tau) d\tau + K_d \frac{de(t)}{dt} \]
-{{< /raw >}}
+## Try it Out
+You can go take a look at the site [here](https://adventure.clairelouisebutler.com).
 
-## Code (Supports many programming languages and formats)
-
-````md
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
-````
-
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
-
-## Inline code
-
-```md
-Here is `var s = "Hello World"` inline code
-```
-
-Here is `var s = "Hello World"` inline code
-
-## Tables 
-
-```md
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-```
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-## Ordered List
-
-```md
-1. Number one
-2. Number Two
-    1. Indented Number 1
-    2. Indented Number 2
-```
-
-1. Number one
-2. Number Two
-    1. Indented Number 1
-    2. Indented Number 2
-
-## Unordered List
-
-```md
-* Get groceries at Harris Teeter before the party
-* Get a Spider Man cake
-    * Chocolate or marble
-    * Whipped cream frosting
-* Don't forget to walk the dog before you leave
-* Bring lots of plates and silverware so that we don't run out
-    * Plastic Dixie brand is fine
-```
-
-* Get groceries at Harris Teeter before the party
-* Get a Spider Man cake
-    * Chocolate or marble
-    * Whipped cream frosting
-* Don't forget to walk the dog before you leave
-* Bring lots of plates and silverware so that we don't run out
-    * Plastic Dixie brand is fine
-
-## Comments
-
-```md
-> This is some text that should show up as a comment. Someone may have made this comment but i'm not sure.
-```
-
-> This is some text that should show up as a comment. Someone may have made this comment but i'm not sure.
-
-## Images
-
-```md
-![NYC Skyline](/post/aether-features/mdd-iphone.jpg)
-```
-
-![NYC Skyline](/post/aether-features/mdd-iphone.jpg)
-
-## Small Images
-
-```md
-{{</* smallimg src="featuredImage" alt="NYC Skyline" smartfloat="left" width="250px" */>}}
-```
-
-{{<smallimg src="featuredImage" alt="aether theme displayed on an iPhone" smartfloat="left" width="250px">}}
-
-This image floats to the left of this paragraph and is 250px wide. Its aspect ratio is maintained so it will not stretch. The picture shows the New York skyline. You can see how the design is responsive and how the cards intelligently fit to the display. With flexbox and css grid, heavy frameworks such as bootstrap aren't necessary to create beautiful responsive designs. The cards in aether use flexbox to change the image from the right side on desktops to the top on mobile.
-
-## Links
-
-```md
-[Aether's Github page](https://github.com/josephhutch/aether)
-```
-
-[Aether's Github page](https://github.com/josephhutch/aether)

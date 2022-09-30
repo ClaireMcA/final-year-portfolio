@@ -12,6 +12,10 @@ resources:
   src: "Crime-data.png"
   params:
     description: "A Mockup of the Crime Rates Poster"
+- name: featuredImageTall
+  src: "Crime-data-tall.png"
+  params:
+    description: "A Mockup of the Crime Rates Poster"
 - name: Figure2
   src: "Crime-data-figure-2.png"
   params:

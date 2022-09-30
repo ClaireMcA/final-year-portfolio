@@ -208,7 +208,7 @@ p {
     /* initial-letter: 2; Maybe someday*/
 }
 .content {
-    background-color: white);
+    background-color: white;
     padding: 2em 0;
     margin-bottom: 3rem;
     width: 100%;
@@ -251,8 +251,8 @@ p {
     background-color: white;
     text-decoration: none;
     box-shadow: none;
-    border-radius: 0;
-    /* border-radius: 1.2rem; */
+    /* border-radius: 0; */
+    border-radius: 1.2rem;
     /* -webkit-tap-highlight-color: rgba(0, 0, 0, 0); */
     /* transition: transform 0.2s cubic-bezier(0.25,0.8,0.25,1), box-shadow 0.2s cubic-bezier(0.25,0.8,0.25,1); */
     /* box-shadow: 0 0.7rem 2.3rem 0 rgba(0,0,0,0.1); */
@@ -504,7 +504,12 @@ footer {
 .footer-icon {
     max-width: 3rem;
     margin: 0;
-
+    height: 10rem;
+    fill: var(--neutral);
+    /* width: 100%; */
+}
+.footer-icon:hover {
+    fill: var(--lightblue);
 }
 @media screen and (pointer: coarse) {
     .card-hover {

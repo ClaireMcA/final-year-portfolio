@@ -12,4 +12,8 @@ resources:
   src: "fabl-brand.png"
   params:
     description: "A brand slide for FABL"
+- name: featuredImageTall
+  src: "fabl-brand-tall.png"
+  params:
+    description: "A brand slide for FABL"
 ---
