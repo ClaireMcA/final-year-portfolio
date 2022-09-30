@@ -18,43 +18,21 @@ resources:
     description: "A screenshot of the Canberra Ultimate App"
 ---
 
-Hugo combined with the Aether theme turns easy to write markdown into powerful web pages.  KaTeX, Highlight.js, and Hugo provides the ability to create mathmatical symobols, equations, highlighted code, tables, lists, and much more.
 
-For each feature below, the first line is the markdown and the second line is the result after Hugo, KaTeX, and Highlight.js process the markdown.  You can find many more features in the Hugo documentation.
 
-## LaTeX style math typsetting with KaTeX
+## Project Brief
 
-```md
-{{</* raw */>}}
-\[u(t) = K_p e(t) + K_i \int_{0}^{t} e(\tau) d\tau + K_d \frac{de(t)}{dt} \]
-{{</* /raw */>}}
-```
+The objective of this project was to create a solution for users of the Canberra Ultimate frisbee website, so that they could access relevant information easily, effectively and in a short amount of time.
 
-{{< raw >}}
-\[u(t) = K_p e(t) + K_i \int_{0}^{t} e(\tau) d\tau + K_d \frac{de(t)}{dt} \]
-{{< /raw >}}
 
-## Code (Supports many programming languages and formats)
+## User Testing
 
-````md
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
-````
+The project began with a round of user surveys to determine the kinds of tasks that Frisbee Players use the website to complete and what the pain points are for achieving these tasks. Based on these users, a new Information architecture was drafted to be used in a round of Treejack testing. After a round of Treejack testing with the new IA, it became clear the the site contained more content than the average user was looking for and to best meet the brief, I decided to switch direction and develop an app which would incorporated all the features of the website that are used weekly into one convenient program for users.
 
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
+## Try it out!
 
-## Inline code
-
-```md
-Here is `var s = "Hello World"` inline code
-```
-
-Here is `var s = "Hello World"` inline code
+[This](https://www.figma.com/proto/jiiPBMFZnzYYMMP4lGYXzl/Ultimate-Frisbee-App?page-id=0%3A1&nodeid=
+22%3A4809&viewport=-135%2C166%2C0.07&scaling=scale-down&starting-point-node-id=22%3A4809) is the link to the Figma prototyope for the application interface.
 
 ## Tables 
 

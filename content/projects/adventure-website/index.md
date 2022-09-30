@@ -55,5 +55,5 @@ There is a fork in the cave. Do you go left or right?
 ```
 
 ## Try it Out
-You can go take a look at the site [here](https://adventure.clairelouisebutler.com).
+You can go take a look at the site [here](https://portfolio.clairelouisebutler.com/projects/adventure-website/live).
 

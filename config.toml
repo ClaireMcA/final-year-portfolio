@@ -1,10 +1,11 @@
-baseurl = "https://clairemca.github.io/final-year-portfolio/public/"
+baseurl = "https://portfolio.clairelouisebutler.com"
 title = "Claire Louise Butler"
 author = "Joe Hutchinson"
 canonifyurls = true
 paginate = 15
 theme = "aether"
 themesDir = "themes/" 
+publishDir = "../public"
 
 [params]
     brand = "Claire Louise Butler"
