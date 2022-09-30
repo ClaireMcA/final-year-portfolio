@@ -1,54 +1,54 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects - Hugo Themes - aether</title>
-    <link>https://clairelouisebutler.com/projects/</link>
-    <description>Recent content in Projects on Hugo Themes - aether</description>
+    <title>Projects - Claire Louise Butler</title>
+    <link>https://clairemca.github.io/final-year-portfolio/public/projects/</link>
+    <description>Recent content in Projects on Claire Louise Butler</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 27 Apr 2018 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://clairelouisebutler.com/projects/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://clairemca.github.io/final-year-portfolio/public/projects/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Crime Rates in Canberra</title>
-      <link>https://clairelouisebutler.com/projects/crime-data/</link>
+      <link>https://clairemca.github.io/final-year-portfolio/public/projects/crime-data/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://clairelouisebutler.com/projects/crime-data/</guid>
+      <guid>https://clairemca.github.io/final-year-portfolio/public/projects/crime-data/</guid>
       <description>A data visualisation of the rates of crime in different suburbs.</description>
     </item><item>
       <title>Remind Me</title>
-      <link>https://clairelouisebutler.com/projects/remind-me/</link>
+      <link>https://clairemca.github.io/final-year-portfolio/public/projects/remind-me/</link>
       <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://clairelouisebutler.com/projects/remind-me/</guid>
+      <guid>https://clairemca.github.io/final-year-portfolio/public/projects/remind-me/</guid>
       <description>A Tablet container that is design to improve compliance among the aging population</description>
     </item><item>
       <title>Canberra Ultimate Frisbee</title>
-      <link>https://clairelouisebutler.com/projects/canberra-ultimate/</link>
+      <link>https://clairemca.github.io/final-year-portfolio/public/projects/canberra-ultimate/</link>
       <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://clairelouisebutler.com/projects/canberra-ultimate/</guid>
+      <guid>https://clairemca.github.io/final-year-portfolio/public/projects/canberra-ultimate/</guid>
       <description>A redesign of the Canberra Ultimate Frisbee Website into a user friendly app catered to current players</description>
     </item><item>
       <title>How to Pack for a Hike</title>
-      <link>https://clairelouisebutler.com/projects/hike-poster/</link>
+      <link>https://clairemca.github.io/final-year-portfolio/public/projects/hike-poster/</link>
       <pubDate>Sat, 21 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://clairelouisebutler.com/projects/hike-poster/</guid>
+      <guid>https://clairemca.github.io/final-year-portfolio/public/projects/hike-poster/</guid>
       <description>A poster with custom icons that explains how to pack a hiking pack</description>
     </item><item>
       <title>Choose Your Own Adventure</title>
-      <link>https://clairelouisebutler.com/projects/adventure-website/</link>
+      <link>https://clairemca.github.io/final-year-portfolio/public/projects/adventure-website/</link>
       <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://clairelouisebutler.com/projects/adventure-website/</guid>
+      <guid>https://clairemca.github.io/final-year-portfolio/public/projects/adventure-website/</guid>
       <description>A Choose your own Adventure Website that was created using a static site generator</description>
     </item><item>
       <title>The FABL</title>
-      <link>https://clairelouisebutler.com/projects/fabl/</link>
+      <link>https://clairemca.github.io/final-year-portfolio/public/projects/fabl/</link>
       <pubDate>Thu, 19 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://clairelouisebutler.com/projects/fabl/</guid>
+      <guid>https://clairemca.github.io/final-year-portfolio/public/projects/fabl/</guid>
       <description>A Fingerprint Activated Bike lock prototype.</description>
     </item>
   </channel>
