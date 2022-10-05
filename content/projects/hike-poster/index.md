@@ -19,4 +19,4 @@ resources:
 ---
 
 ## Design Brief
-I was asked to create a poster using illustrator, based on a topic of my choise. The poster I created uses all custom icons that I created.
+I was asked to create a poster using illustrator, based on a topic of my choice. The poster I created uses all custom icons that I created.

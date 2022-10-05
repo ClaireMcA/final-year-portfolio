@@ -10,8 +10,7 @@
     width: 17rem;
 }
 body {
-    font-family: Source Sans, HelveticaNeue-Light, "Helvetica Neue Light",
-                 "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: 'Source Sans 3', sans-serif;
     color: var(--darkblue);
     font-size: 1.1em;
     background-color: var(--neutral);
@@ -162,7 +161,7 @@ p {
 }
 .hamburger-menu-overlay-link {
     text-decoration: none;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier Prime', Courier, monospace;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 2.2em;
@@ -179,7 +178,7 @@ p {
     font-family: 'Source Sans 3', sans-serif;
 }
 .post-header {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier Prime', Courier, monospace;
     margin: 0 0 1.5em 0;
 }
 .post-title {
@@ -188,7 +187,7 @@ p {
     color: var(--darkblue);
     line-height: 1.2;
     margin: 0 0 0.4em 0;
-    font-family: Oswald;
+    font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
 }
 .about-heading {
@@ -310,19 +309,19 @@ p {
     color: var(--darkblue);
     font-size: 2em;
     font-weight: 400;
-    font-family: 'Oswald';
+    font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
 }
 .card-text {
     margin: 1em 0;
-    font-family: 'Source Sans Pro';
+    font-family: 'Source Sans 3', sans-serif;
 }
 .card-subtext p {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier Prime', Courier, monospace;
     color: var(--yellow);
 }
 .card-subtext p:hover {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier Prime', Courier, monospace;
     color: var(--yellow);
     text-decoration: underline;
 }
@@ -553,7 +552,7 @@ footer {
     .menu h2 {
         margin: 0;
         margin-left: 3rem;
-        font-family: 'Courier New', Courier, monospace;
+        font-family: 'Courier Prime', Courier, monospace;
     }
     .menu h2 a {
         color: var(--darkblue);
