@@ -178,8 +178,9 @@ p {
     font-family: 'Source Sans 3', sans-serif;
 }
 .post-header {
-    font-family: 'Courier Prime', Courier, monospace;
+    font-family: 'Oswald', sans-serif;
     margin: 0 0 1.5em 0;
+
 }
 .post-title {
     font-size: 1.8em;
@@ -187,7 +188,7 @@ p {
     color: var(--darkblue);
     line-height: 1.2;
     margin: 0 0 0.4em 0;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Courier Prime', Courier, monospace;
     text-transform: uppercase;
 }
 .about-heading {
@@ -399,6 +400,7 @@ p {
     width: unset;
     max-width: 100%;
     margin: 0 auto 1.5em auto;
+    border-radius: 0.8rem;
 }
 .muted-text {
     color: #8E8E8E;

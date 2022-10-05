@@ -1,27 +1,19 @@
 ---
-title: "About"
+title: 'About'
 date: 2014-04-09
-displayInMenu: false
-displayInList: true
+displayInMenu: true
+displayInList: false
 dropCap: false
-# - name: Headshot
-#   src: "headshot-square-b&w.png"
-#   params:
-#     description: "A photo of the designer"
+resources:
+- name: Headshot
+  src: 'headshot-square-b&w.png'
+  params:
+    description: 'A photo of the designer'
 ---
 
-<!-- +++
-title = "About"
-date = "2014-04-09"
-displayInMenu = true
-displayInList = false
-dropCap = false
+{{<smallimg src="Headshot" alt="A photo of the designer"  width="250px">}}
 
-+++ -->
-
-<!-- {{<smallimg src="Headshot" alt="A diagram that shows all the possible choice in the website" smartfloat="left" width="250px">}} -->
-
-### My name is Claire and I am an Interaction Design student
+## My name is Claire and I am an Interaction Design student
 
 I am currently studying a Bachelor of Interaction Design at the University of Canberra. I tried a few different things before landing in this field, but I know I am in the right place now. Creating things that are just visually appealing but are functional and practical, and in the exceptional cases life-changing. Good design has so much potential to shape our world, and that makes designers people who push boundaries and improve the lives of those around them.
 
