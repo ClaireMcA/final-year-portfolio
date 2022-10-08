@@ -150,7 +150,7 @@ p {
     visibility: hidden;
     overflow-y: auto;
     margin: 0;
-    padding: 3.5em 0 0 0;
+    padding: 9em 0 0 0;
     background-color: var(--darkblue);
     opacity: 0;
     transition: visibility 0.2s ease-out, opacity 0.2s ease-out;
@@ -162,10 +162,10 @@ p {
 .hamburger-menu-overlay-link {
     text-decoration: none;
     font-family: 'Courier Prime', Courier, monospace;
-    font-weight: 700;
+    font-weight: 300;
     text-transform: uppercase;
     font-size: 2.2em;
-    line-height: 1.7;
+    line-height: 1.6;
     color: var(--neutral);
 }
 .hamburger-menu-overlay-link:hover {
@@ -178,7 +178,8 @@ p {
     font-family: 'Source Sans 3', sans-serif;
 }
 .post-header {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Courier Prime', Courier, monospace;
+    font-weight: 300;
     margin: 0 0 1.5em 0;
 
 }
@@ -189,7 +190,7 @@ p {
     line-height: 1.2;
     margin: 0 0 0.4em 0;
     font-family: 'Courier Prime', Courier, monospace;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 .about-heading {
     display:none;
@@ -305,17 +306,18 @@ p {
     margin: 1.3em 1.5em;
     line-height: 1.6;
 }
+.card-text {
+    margin: 1em 0;
+    font-family: 'Source Sans 3', sans-serif;
+}
 .card-title {
     margin: 0;
     color: var(--darkblue);
     font-size: 2em;
-    font-weight: 400;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-}
-.card-text {
-    margin: 1em 0;
-    font-family: 'Source Sans 3', sans-serif;
+    font-family: 'Courier Prime', Courier, monospace;
+    font-weight: 300;
+    /* text-transform: uppercase; */
+    line-height: 1.2;
 }
 .card-subtext p {
     font-family: 'Courier Prime', Courier, monospace;
@@ -423,6 +425,8 @@ p {
 h1, h2, h3, h4, h5, h6 {
     margin: 1.5em 0 -0.5em 0;
     clear: both;
+    font-family: 'Courier Prime', Courier, monospace;
+    font-weight: 300;
 }
 h1 {
     text-align: center;
