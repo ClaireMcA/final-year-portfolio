@@ -6,7 +6,7 @@ canonifyurls = true
 paginate = 15
 theme = "theme-test"
 themesDir = "themes/" 
-publishDir = "../public"
+publishDir = "./public"
 
 [params]
     brand = "Claire Louise Butler"
