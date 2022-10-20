@@ -3,7 +3,7 @@ title = "Claire Louise Butler"
 author = "Joe Hutchinson"
 canonifyurls = true
 paginate = 15
-theme = "aether"
+theme = "theme-test"
 themesDir = "themes/" 
 publishDir = "../public"
 
