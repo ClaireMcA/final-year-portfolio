@@ -27,14 +27,14 @@ resources:
 ---
 
 
-## The Task
+### The Task
 
 This project was all about how to visualise data, I had to locate a dataset and then find a visual way to represent it. I used the ACT Crime Statistics (2021) dataset, which looks at the different types of crimes committed in the ACT, and in which suburb they occurred. I used the 2018 to 2021 data from this set. 
 
 Since I chose a data set that has geographic data, the obvious choice was to use a map in some form. I planned to have a large map that was divided by suburb in the centre of the graphic and then have a few other visualisations around the map that show other interesting statistics. I would include data like the number of crimes per region, ‘top’ suburbs, and a percentage breakdown of the different types of crime (Figure 1). 
 
 
-## The Design Process
+### The Design Process
 
 I spent a significant portion of time sorting through the data to begin with, through which I calculated the total crimes committed in every suburb and each geographical region across the three-year chosen period. I used a colour gradient to communicate the different amounts of crime committed in each suburb on a map. 
 

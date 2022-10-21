@@ -22,7 +22,7 @@ resources:
 This project was part of a univeristy unit where we were asked to apply our knowledge and skills in digital design and production to build creative cutting-edge works designed to delight, surprise and showcase the potential of modern design.
 
 
-## The Design
+### The Design
 The Fingerprint Activated Bike Lock (FABL) is a bike lock designed to unlick with fingerprint identification, or through a simple app. It is a relatively compact unit that can be mounted onto a bicycle frame with a cable that retracts into the unit when unlocked for the user’s convenience. The Fingerprint ID module is on the outside of the unit so it can be easily accessed. 
 The FABL also has a Bluetooth module so that it can communicate with the app on the user’s phone. This Bluetooth connection is a very important part of the two main features which make the application useful.
 

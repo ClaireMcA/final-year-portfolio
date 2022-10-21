@@ -184,7 +184,7 @@ p {
 
 }
 .post-title {
-    font-size: 1.8em;
+    ize: 1.8em;
     font-weight: 500;
     color: var(--darkblue);
     line-height: 1.2;
@@ -427,9 +427,24 @@ h1, h2, h3, h4, h5, h6 {
     clear: both;
     font-family: 'Courier Prime', Courier, monospace;
     font-weight: 300;
+    line-height: 1.2em;
 }
 h1 {
     text-align: center;
+    font-weight: 600;
+    font-size: 3rem;
+    margin: 0.5em 0 -0.5em 0;
+
+}
+h3 {
+    font-size: 2em;
+}
+h4 {
+    font-size: 2em;
+    text-align: center;
+}
+h4 a {
+    color: var(--yellow);
 }
 img {
     display: block;
@@ -606,6 +621,8 @@ footer {
     }
     .card-title {
         font-size: 1.5em;
+        font-weight: 600;
+        line-height: 1.2em;
     }
     .card-text {
         font-size: 0.9em;

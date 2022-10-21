@@ -13,7 +13,7 @@ resources:
 
 {{<smallimg src="Headshot" alt="A photo of the designer"  width="250px">}}
 
-## My name is Claire and I am an Interaction Design student
+### My name is Claire and I am an Interaction Design student
 
 I am currently studying a Bachelor of Interaction Design at the University of Canberra. I tried a few different things before landing in this field, but I know I am in the right place now. Creating things that are just visually appealing but are functional and practical, and in the exceptional cases life-changing. Good design has so much potential to shape our world, and that makes designers people who push boundaries and improve the lives of those around them.
 
