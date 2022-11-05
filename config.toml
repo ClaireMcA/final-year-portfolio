@@ -1,5 +1,5 @@
-# baseurl = "https://portfolio.clairelouisebutler.com"
-baseurl = "https://master--deft-sunburst-43c744.netlify.app/"
+baseurl = "https://clairelouisebutler.com"
+# baseurl = "https://master--deft-sunburst-43c744.netlify.app/"
 title = "Claire Louise Butler"
 author = "Joe Hutchinson"
 canonifyurls = true
